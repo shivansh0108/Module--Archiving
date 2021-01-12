@@ -1,0 +1,6 @@
+---
+- hosts: demo
+  tasks:
+        - unarchive:
+                 src: local.zip
+                 dest: /tmp

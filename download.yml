@@ -1,0 +1,9 @@
+---
+- hosts: demo
+  tasks:
+        - unarchive:
+                src: https://github.com/kodekloud/Hello-World/archive/master.zip
+                dest: /root
+                remote_src: yes
+
+              
